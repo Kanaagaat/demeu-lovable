@@ -1,0 +1,57 @@
+.rd-search-page{min-height:100%;background:#FFFCF9;color:#2E2A3B;display:flex;flex-direction:column}
+.rd-search-page>div{display:flex;flex:1;flex-direction:column}
+.rd-search-content{display:flex;flex:1;flex-direction:column;gap:16px;padding:9.6px 16px max(28px,env(safe-area-inset-bottom,0px));min-width:0}
+.rd-search-page p,.rd-search-sheet p{margin:0;font-size:13.5px;line-height:19.2px}
+.rd-search-page h2,.rd-search-sheet h2{margin:0;font-size:19.2px;line-height:24px;font-weight:900}
+.rd-search-route{display:flex;flex-direction:column;gap:6.4px;background:#fff;border:1px solid #EEE9F7;border-radius:18px;padding:14.4px;box-shadow:0 4px 16px #6755B20A}
+.rd-search-page .rd-search-route-address{display:flex;flex-direction:column;gap:3.2px;font-size:14.4px;line-height:20px;font-weight:800;overflow-wrap:anywhere}
+.rd-search-route-arrow{color:#6755B2;line-height:16px}
+.rd-search-page .rd-search-parent-price{padding-top:8px;border-top:1px solid #EEE9F7;font-weight:800;color:#6755B2}
+.rd-search-muted{color:#6E6880}
+.rd-search-page .rd-search-route .rd-search-muted{font-size:13.5px;line-height:16.8px}
+.rd-search-offline{padding:9.6px 12.8px;border-radius:12.8px;background:#FFF1D9;color:#67491C}
+.rd-search-empty{display:flex;align-items:center;flex-direction:column;gap:9.6px;padding:6.4px 0 9.6px;text-align:center}
+.rd-search-empty>p{color:#6E6880;max-width:330px}
+.rd-search-mascot{position:relative;display:flex;align-items:center;justify-content:center;width:152px;height:152px;background:#F5F1FF;border-radius:50%;margin-bottom:6.4px}
+.rd-search-mascot img{width:136px;height:136px;object-fit:contain;position:relative;z-index:1}
+.rd-search-pulse{position:absolute;inset:-7px;border:3px solid #CBBFF5;border-radius:50%;animation:rd-search-pulse 2.8s ease-in-out infinite}
+.rd-search-offers{display:flex;flex-direction:column;gap:12.8px}
+.rd-search-offers>h2{font-size:17.6px;line-height:22.4px}
+.rd-search-offer{display:flex;flex-direction:column;gap:9.6px;min-width:0;padding:12.8px;background:#fff;border:1px solid #EEE9F7;border-radius:18px;box-shadow:0 4px 16px #6755B210}
+.rd-search-driver{display:flex;align-items:center;gap:8px;min-width:0;flex-wrap:wrap}
+.rd-search-avatar{display:flex;align-items:center;justify-content:center;flex:none;width:41.6px;height:41.6px;border-radius:50%;font-size:15.2px;font-weight:900;color:#2E2A3B}
+.rd-search-driver-info{flex:1;min-width:108px;overflow-wrap:anywhere}
+.rd-search-driver h3{margin:0;font-size:14.4px;line-height:19.2px;font-weight:900}
+.rd-search-driver-info p{font-size:13.5px;line-height:16px;color:#6E6880}
+.rd-search-rating{flex:none;font-size:13.5px;font-weight:800;color:#6755B2;white-space:nowrap}
+.rd-search-badges{display:flex;flex-wrap:wrap;gap:4.8px;padding:0;margin:0;list-style:none}
+.rd-search-badges:empty{display:none}
+.rd-search-badges li{max-width:100%;padding:5.6px 8px;border-radius:12.8px;background:#EAF2EB;color:#36573B;font-size:13.5px;line-height:15px;font-weight:800}
+.rd-search-page .rd-search-offer-price{font-size:20.8px;line-height:27.2px;font-weight:900}
+.rd-search-page .rd-search-counter-price{padding:9.6px;border-radius:12.8px;background:#F5F1FF;color:#6755B2;font-size:16.8px;line-height:23.2px}
+.rd-search-page .rd-search-eta{color:#6E6880;font-size:13.5px;line-height:17.6px}
+.rd-search-offer-actions{display:flex;gap:6.4px}
+.rd-search-offer-actions>button{flex:1;min-width:0;padding:8px 6.4px;font-size:13.5px;line-height:17.6px}
+.rd-search-actions{display:flex;flex-direction:column;gap:6.4px;margin-top:auto}
+.rd-search-text-button{display:flex;align-items:center;justify-content:center;min-height:38.4px;width:100%;padding:8px 9.6px;border:0;background:transparent;border-radius:12.8px;color:#6755B2;font-size:13.5px;line-height:19.2px;font-weight:800;cursor:pointer}
+.rd-search-text-button:hover:not(:disabled){background:#F5F1FF}
+.rd-search-page :is(button,a,input):focus-visible,.rd-search-overlay :is(button,input):focus-visible{outline:3px solid #6755B2;outline-offset:3px}
+.rd-search-page button:disabled,.rd-search-sheet button:disabled{opacity:.45;cursor:default}
+.rd-search-overlay{position:fixed;inset:0;z-index:100;display:flex;align-items:flex-end;justify-content:center;background:#2E2A3B66}
+.rd-search-sheet{display:flex;flex-direction:column;gap:12.8px;width:100%;max-width:390px;max-height:90dvh;overflow-y:auto;overscroll-behavior:contain;box-sizing:border-box;padding:8px 16px max(28px,env(safe-area-inset-bottom,0px));border-radius:18px 18px 0 0;background:#FFFCF9;color:#2E2A3B;box-shadow:0 -8px 32px #2E2A3B1A;outline:none}
+.rd-search-handle{height:4px;width:32px;flex:none;border-radius:3.2px;background:#CFC8E0;align-self:center}
+.rd-search-sheet-header{display:flex;align-items:center;gap:8px}
+.rd-search-sheet-header h2{flex:1;font-size:18.4px;line-height:24px}
+.rd-search-close{display:flex;align-items:center;justify-content:center;flex:none;width:38.4px;height:38.4px;border:0;border-radius:50%;background:#F5F1FF;cursor:pointer}
+.rd-search-price-form{display:flex;flex-direction:column;gap:9.6px}
+.rd-search-price-label{font-size:13.5px;line-height:19.2px;font-weight:800}
+.rd-search-price-form input{width:100%;min-width:0;box-sizing:border-box;min-height:48px;border:2px solid #E6E0F5;border-radius:12.8px;background:#fff;padding:8px 12.8px;color:#2E2A3B;font-size:22.4px;line-height:28.8px;font-weight:900}
+.rd-search-price-form input[aria-invalid=true]{border-color:#A33E49}
+.rd-search-chips{display:flex;gap:6.4px}
+.rd-search-chips button{flex:1;min-width:0;min-height:38.4px;padding:6.4px;border:1.5px solid #CBBFF5;border-radius:18px;background:#fff;color:#6755B2;font-size:13.5px;font-weight:800;cursor:pointer}
+.rd-search-chips button[aria-pressed=true]{background:#F5F1FF;border-color:#6755B2}
+.rd-search-sheet .rd-search-error{color:#A33E49;font-size:13.5px;line-height:17.6px;font-weight:700}
+.app-shell[data-rides=true][data-tabs=true]:has(.rd-search-page)>.tab-bar{display:none}
+@keyframes rd-search-pulse{0%,100%{opacity:.45;transform:scale(.98)}50%{opacity:1;transform:scale(1.03)}}
+@media(prefers-reduced-motion:reduce){.rd-search-pulse{animation:none}}
+.rd-search-page .rounded-button,.rd-search-sheet .rounded-button{min-height:40px;font-size:14px;border-radius:12px;padding:0 14px}

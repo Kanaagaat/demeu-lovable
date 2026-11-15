@@ -1,0 +1,239 @@
+[
+ {
+  "name": "autism6_nospeech",
+  "card": {
+   "age": 6,
+   "features": [
+    "РАС"
+   ],
+   "comm": "Пока не говорит",
+   "react": "Бывают сильные реакции",
+   "goals": [
+    "Речь",
+    "Поведение"
+   ],
+   "disability": "Нет"
+  },
+  "steps": [
+   "c-attach",
+   "c-pediatrician",
+   "c-neuro",
+   "c-hearing",
+   "c-vkk",
+   "s-pmpk",
+   "s-mse",
+   "b-no-status",
+   "b-rights",
+   "g-kg",
+   "g-school",
+   "g-speech",
+   "g-aac",
+   "g-aba",
+   "g-neuro",
+   "g-parent",
+   "g-home"
+  ]
+ },
+ {
+  "name": "cp2_disability",
+  "card": {
+   "age": 2,
+   "features": [
+    "ДЦП"
+   ],
+   "comm": "Жесты или карточки",
+   "react": "Нужно время, чтобы привыкнуть",
+   "goals": [
+    "Моторика"
+   ],
+   "disability": "Да"
+  },
+  "steps": [
+   "c-attach",
+   "c-pediatrician",
+   "c-vision",
+   "c-cp",
+   "s-pmpk",
+   "s-ipr",
+   "s-renew",
+   "b-allowance",
+   "b-tsr",
+   "b-rehab",
+   "b-transport",
+   "b-meds",
+   "b-rights",
+   "g-early",
+   "g-kg",
+   "g-aac",
+   "g-motor",
+   "g-parent",
+   "g-home"
+  ]
+ },
+ {
+  "name": "down4_in_progress",
+  "card": {
+   "age": 4,
+   "features": [
+    "Синдром Дауна"
+   ],
+   "comm": "Отдельные слова",
+   "react": "Спокойно",
+   "goals": [
+    "Речь",
+    "Самостоятельность"
+   ],
+   "disability": "В процессе"
+  },
+  "steps": [
+   "c-attach",
+   "c-pediatrician",
+   "c-neuro",
+   "c-hearing",
+   "c-down",
+   "c-vkk",
+   "s-pmpk",
+   "s-mse-wait",
+   "s-ipr",
+   "b-allowance",
+   "b-rights",
+   "g-kg",
+   "g-speech",
+   "g-aac",
+   "g-defect",
+   "g-self",
+   "g-parent",
+   "g-home"
+  ]
+ },
+ {
+  "name": "delay8_study",
+  "card": {
+   "age": 8,
+   "features": [
+    "ЗПР / ЗРР"
+   ],
+   "comm": "Говорит фразами",
+   "react": "Спокойно",
+   "goals": [
+    "Учёба",
+    "Общение"
+   ],
+   "disability": "Нет"
+  },
+  "steps": [
+   "c-attach",
+   "c-pediatrician",
+   "c-neuro",
+   "s-pmpk",
+   "b-no-status",
+   "b-rights",
+   "g-school",
+   "g-defect",
+   "g-neuro",
+   "g-social",
+   "g-parent",
+   "g-home"
+  ]
+ },
+ {
+  "name": "hearing5",
+  "card": {
+   "age": 5,
+   "features": [
+    "Нарушения слуха"
+   ],
+   "comm": "Жесты или карточки",
+   "react": "Спокойно",
+   "goals": [
+    "Речь"
+   ],
+   "disability": "Да"
+  },
+  "steps": [
+   "c-attach",
+   "c-pediatrician",
+   "c-neuro",
+   "c-hearing",
+   "s-pmpk",
+   "s-ipr",
+   "s-renew",
+   "b-allowance",
+   "b-tsr",
+   "b-rehab",
+   "b-transport",
+   "b-meds",
+   "b-rights",
+   "g-kg",
+   "g-school",
+   "g-speech",
+   "g-aac",
+   "g-hearing",
+   "g-parent",
+   "g-home"
+  ]
+ },
+ {
+  "name": "unknown3",
+  "card": {
+   "age": 3,
+   "features": [
+    "Пока не знаю / не хочу указывать"
+   ],
+   "comm": "Отдельные слова",
+   "react": "Спокойно",
+   "goals": [],
+   "disability": "Нет"
+  },
+  "steps": [
+   "c-attach",
+   "c-pediatrician",
+   "c-neuro",
+   "c-hearing",
+   "b-rights",
+   "g-early",
+   "g-kg",
+   "g-speech",
+   "g-aac",
+   "g-parent",
+   "g-home"
+  ]
+ },
+ {
+  "name": "vision15_teen",
+  "card": {
+   "age": 15,
+   "features": [
+    "Нарушения зрения",
+    "Другое"
+   ],
+   "comm": "Говорит фразами",
+   "react": "Спокойно",
+   "goals": [
+    "Самостоятельность"
+   ],
+   "disability": "Да"
+  },
+  "steps": [
+   "c-attach",
+   "c-pediatrician",
+   "c-neuro",
+   "c-vision",
+   "s-pmpk",
+   "s-ipr",
+   "s-renew",
+   "b-allowance",
+   "b-tsr",
+   "b-rehab",
+   "b-transport",
+   "b-meds",
+   "b-rights",
+   "g-school",
+   "g-defect",
+   "g-self",
+   "g-vision",
+   "g-parent",
+   "g-home"
+  ]
+ }
+]
